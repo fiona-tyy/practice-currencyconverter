@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Index</title>
+  </head>
+  <body>
+    <h1>Currency Conversion App</h1>
+    <form method="GET" action="/convert">
+      <table>
+        <tr>
+          <td>Base Currency:</td>
+          <td>
+            <select name="base_code">
+              <option value="SGD">SGD</option>
+              <option value="USD">USD</option>
+              <option value="GBP">GBP</option>
+              <option value="EUR">EUR</option>
+              <option value="HKD">HKD</option>
+            </select>
+          </td>
+        </tr>
+      </table>
+      <button type="submit">Convert now!</button>
+    </form>
+  </body>
+</html>
